@@ -738,7 +738,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   maxSpeed: 10
-  jump: {fileID: 0}
+  jump: {fileID: 8300000, guid: 7e3c778631cb0c449a183b8e80ef7209, type: 3}
   backgroundMusic: {fileID: 0}
   sfxPlayer: {fileID: 0}
   musicPlayer: {fileID: 0}

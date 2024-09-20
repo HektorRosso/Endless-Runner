@@ -52,6 +52,7 @@ public class PlayerController : MonoBehaviour
     private void Jump()
     {
         // Add upward force to jump
+        sfxPlayer.PlayOneShot(jump);
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
     }
     private void OnDrawGizmosSelected()
