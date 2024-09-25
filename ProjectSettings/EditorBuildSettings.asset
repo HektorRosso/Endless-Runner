@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/MainMenu.unity
+    guid: 8489a5f7d83e1f74e91df6fdc4192177
+  - enabled: 1
+    path: Assets/The WereWall.unity
+    guid: 6ed5e9f63c541424f9df144dc0f55566
   m_configObjects: {}
