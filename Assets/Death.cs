@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Destroyer : MonoBehaviour
 {
+
     // Much like the Start() and Update() methods, OnTriggerEnter2D is a special Unity method that is called by Unity automatically at a specific point - in this case, when something enters the Trigger attached to this GameObject
     private void OnTriggerEnter2D(Collider2D collison)
     {
@@ -12,7 +13,8 @@ public class Destroyer : MonoBehaviour
         if (collison.gameObject.tag == "Player")
         {
             // Then we use this method to destroy it
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(2);
+            
         }
     }
 }
