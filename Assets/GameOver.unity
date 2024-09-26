@@ -440,9 +440,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a40726f1df24b964bac5aa33e5d03de2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  death: {fileID: 8300000, guid: 0a14b81c9eeb97d42861fbdd686e65da, type: 3}
-  laugh: {fileID: 8300000, guid: ebbc18628dcd3be4b814e8563ca07568, type: 3}
-  gameOver: {fileID: 1587114217}
 --- !u!1 &1483692577
 GameObject:
   m_ObjectHideFlags: 0
