@@ -7,16 +7,13 @@ public class MainMenu : MonoBehaviour
 {
 
     // Update is called once per frame
-    void Update()
+    public void PlayGame()
     {
-        if (Input.GetKeyDown("space"))
-        {
-            SceneManager.LoadScene(1);
-        }
+        SceneManager.LoadSceneAsync(1);
+    }
 
-        if (Input.GetKeyDown("q"))
-        {
-            Application.Quit();
-        }
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }

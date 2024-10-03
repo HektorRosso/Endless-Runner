@@ -5,15 +5,26 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject deathScreenCanvas;
+
+    // Show the death screen
+    public void ShowDeathScreen()
     {
-        Invoke("MainMenu", 5f);
+        deathScreenCanvas.SetActive(true);
+        Time.timeScale = 0f;
     }
 
-    // Update is called once per frame
-    void MainMenu()
+    // Restart the game (called by a button)
+    public void RestartGame()
     {
-        SceneManager.LoadScene(0);
+        Time.timeScale = 1f;
+        SceneManager.LoadSceneAsync(1);
+    }
+
+    // Quit the game (called by a button)
+    public void GoBack()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadSceneAsync(0);
     }
 }
