@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ab7d1b98bed43a84c80ce0a2b3be1d4a
+guid: 5543bfea3c6a6994d9152eafee51e864
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -147,7 +147,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: WereWall_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 73.5
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1281ed25022797a4b85e8d9a3d19e7d5
+      internalID: -487024919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WereWall_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 73.5
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f865072f520ef5f41a003e9b229c567e
+      internalID: -220432543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WereWall_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 73.5
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e968101311ebe3b468fd64b81b222535
+      internalID: 364818040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WereWall_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 0
+        width: 73.5
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2464b2d59397d41b98599e8212f77f
+      internalID: -1506963253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WereWall_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 73.5
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dbcb5db9bde9b42befeac12161b318
+      internalID: -631258631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WereWall_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 0
+        width: 73.5
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb66175750fd9f49a67cde418810ce8
+      internalID: 1416797884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +284,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WereWall_0: -487024919
+      WereWall_1: -220432543
+      WereWall_2: 364818040
+      WereWall_3: -1506963253
+      WereWall_4: -631258631
+      WereWall_5: 1416797884
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

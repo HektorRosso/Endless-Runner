@@ -10,8 +10,8 @@ public class WallSpawner : MonoBehaviour
     float timeToNextSpawn;  // Tracks how long we should wait before spawning a new object
     float timeSinceLastSpawn = 0.0f; // Tracks the time since we last spawned something
 
-    public float minSpawnTime = 5.0f; // Minimum amount of time between spawning objects
-    public float maxSpawnTime = 10.0f; // Maximum amount of time between spawning objects
+    public float minSpawnTime = 2.5f; // Minimum amount of time between spawning objects
+    public float maxSpawnTime = 5.0f; // Maximum amount of time between spawning objects
 
     // Start is called before the first frame update
     void Start()
