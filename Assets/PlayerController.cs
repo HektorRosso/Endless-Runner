@@ -38,6 +38,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(Time.timeScale);
+
         // Constant forward movement
         rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
 

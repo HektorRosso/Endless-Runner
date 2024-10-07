@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Destroyer : MonoBehaviour
+public class Death : MonoBehaviour
 {
 
     // Much like the Start() and Update() methods, OnTriggerEnter2D is a special Unity method that is called by Unity automatically at a specific point - in this case, when something enters the Trigger attached to this GameObject
