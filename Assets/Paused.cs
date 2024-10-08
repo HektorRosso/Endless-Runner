@@ -21,39 +21,7 @@ public class Paused : MonoBehaviour
         {
             PauseMenu.SetActive(false);
         }
-
-
-
-
-
-            /*if (gamePaused == false)
-            {
-                Play();
-            }
-            else
-            {
-                Pause();
-            }*/
     }
-
-
-    /*public void Pause()
-    {
-        
-        gamePaused = true;
-        pauseMenu.SetActive(true);
-        Time.timeScale = 0.0f;
-          
-    }
-    public void Play()
-    {
-        if (Time.timeScale == 0.0f)
-        {
-            Time.timeScale = 1f;
-            pauseMenu.SetActive(false);
-            gamePaused = false;
-        }
-    }*/
 
     public void counter()
     {
@@ -61,21 +29,15 @@ public class Paused : MonoBehaviour
         if (count == 1)
         {
             Time.timeScale = 0f;
-            
+            AudioListener.volume = 0f;
         }
         if (count == 2)
         {
             Time.timeScale = 1f;
             
-            count -= 2; 
-        }
+            count -= 2;
 
-        
-
+            AudioListener.volume = 1f;
+        }        
     }
-
-
-
-
-
 }
