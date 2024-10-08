@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Paused : MonoBehaviour
 {
@@ -20,6 +21,13 @@ public class Paused : MonoBehaviour
         if (Time.timeScale > 0f)
         {
             PauseMenu.SetActive(false);
+        }
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+            Time.timeScale = 1f;
+            AudioListener.volume = 1f;
         }
     }
 
